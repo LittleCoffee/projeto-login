@@ -53,6 +53,59 @@ section#login > div#imagem {
 
 section#login > div#formulario {
     display: block;
-    padding: 10px;
+    padding: 6px;
 
+}
+section#login > div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form > input[type=submit] {
+    display: block;
+    width: 100%;
+    height: 40%;
+    margin-top: 10px;
+    padding: 5px;
+
+    background-color: #78581D;
+    border-radius: 5px;
+    border-color: #932C0B;
+    color: white;
+}
+
+form > input[type=submit]:hover {
+    background-color: #533d15;
+}
+
+form > a.botao {
+    display: block;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 5px;
+    margin-top: 10px;
+
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #932C0B;
+    background-color: #78581D;
+    color: white;
+}
+
+form > a.botao:hover {
+    background-color: #533d15;
+}
+
+form > div.campo {
+    display: block;
+    margin: 5px 0px;
+    padding-bottom: 5px;
+    background-color: #C13F0B;
+    border-radius: 5px;
+}
+
+form > div.campo > label {
+    display: none;
 }
